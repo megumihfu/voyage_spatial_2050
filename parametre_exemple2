@@ -14,9 +14,8 @@ pipeline {
         script {
           def name = "${params.NAME}"
           def desc = "${params.DESC}"
-          def test = "${params.SKIP_TEST}"
-          def branch = "${params.BRANCH}"
-          def password = "${params.SONAR_SERVER_PWD}"
+          echo name
+          echo desc
         }
       }
     }
