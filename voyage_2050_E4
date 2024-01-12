@@ -15,9 +15,22 @@ stages {
     stage('Test') {
       steps {
         script {
-          echo "Verification des équipement de navigation"
+          echo "Verification de la plage de dates incluant les dates de lancement de mars 2050"
+          echo "test OK"
           sleep 10
-          echo "Léger disfonctionnement de la carte numerique" 
+          echo "Verification du temps de changements des listes de vol"
+          echo "test OK"
+          sleep 10
+          echo "verification promotion des soldes d'été pour Sature"
+          echo "test OK"
+          sleep 10
+          echo "verification du maintien de la concentration des réservoirs de carburants"
+          echo "test OK"
+          sleep 10
+          echo "verification de la reduction de la consommation globale de carburant"
+          echo "test OK"
+          sleep 10
+          echo "verification du remplacement de gary"
         }
       }
     }
@@ -31,6 +44,4 @@ stages {
         }
       }
     }
-}
-
 }
